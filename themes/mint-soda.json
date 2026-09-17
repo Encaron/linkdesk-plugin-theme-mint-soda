@@ -1,11 +1,11 @@
 {
   "$schema": "./node_modules/@linkdesk/plugin-sdk/schemas/theme.schema.json",
-  "id": "mint-soda",
+  "id": "theme-mint-soda.mint-soda",
   "name": "薄荷苏打 Mint Soda",
   "type": "light",
   "colorways": [
     {
-      "id": "mint-soda",
+      "id": "theme-mint-soda.mint-soda",
       "name": "薄荷苏打 Mint Soda",
       "colors": {
         "bg-icon-bar": "#B8ECD6",
@@ -48,7 +48,7 @@
       }
     },
     {
-      "id": "mint-dew",
+      "id": "theme-mint-soda.mint-dew",
       "name": "薄荷冰露 Mint Dew",
       "colors": {
         "bg-window": "#F2F8FA",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "sea-salt-mint",
+      "id": "theme-mint-soda.sea-salt-mint",
       "name": "海盐薄荷 Sea Salt Mint",
       "colors": {
         "bg-window": "#F7F5F0",
@@ -134,7 +134,7 @@
       }
     },
     {
-      "id": "lime-mint",
+      "id": "theme-mint-soda.lime-mint",
       "name": "青柠薄荷 Lime Mint",
       "colors": {
         "bg-window": "#F5FAF2",
