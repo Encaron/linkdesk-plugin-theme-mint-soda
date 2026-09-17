@@ -1,22 +1,28 @@
 {
   "version": "1",
-  "updatedAt": "2026-09-14T17:30:48.557Z",
+  "updatedAt": "2026-09-17T16:29:21.317Z",
   "plugins": [
     {
       "id": "theme-mint-soda",
       "name": "薄荷苏打",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "description": "清凉薄荷色系主题合集——薄荷冰露/海盐薄荷/青柠薄荷/薄荷苏打，Claymorphism 软萌风，全系亮色",
       "author": {
         "name": "LinkDesk"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-mint-soda/v1.0.4/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-mint-soda/v1.0.5/resources/icon.svg",
       "iconSource": "url",
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-mint-soda/v1.0.4/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-mint-soda/releases/download/v1.0.4/theme-mint-soda.linkdesk-plugin",
-      "size": 5084,
-      "publishedAt": "2026-09-14T17:30:48.557Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-mint-soda/v1.0.5/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-mint-soda/releases/download/v1.0.5/theme-mint-soda.linkdesk-plugin",
+      "size": 5691,
+      "publishedAt": "2026-09-17T16:29:21.317Z",
       "versions": [
+        {
+          "version": "1.0.5",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-mint-soda/releases/download/v1.0.5/theme-mint-soda.linkdesk-plugin",
+          "publishedAt": "2026-09-17T16:29:21.317Z",
+          "changelog": "- **E6#111n-6 外观族 id 带归属**（本轴「非样式命名空间归一化」清账 · 主题族）——本仓名额全在下面；**词干一字未动**，只加了「<插件 id>.」归属前缀：\n- 配方 id `mint-soda` → `theme-mint-soda.mint-soda`\n- 配色 id `mint-soda` → `theme-mint-soda.mint-soda`\n- 配色 id `mint-dew` → `theme-mint-soda.mint-dew`\n- 配色 id `sea-salt-mint` → `theme-mint-soda.sea-salt-mint`\n- 配色 id `lime-mint` → `theme-mint-soda.lime-mint`\n- 🔴 **显示名（`label` / `name`）一字未动** —— 设置页看到的主题名与配色名**没有变化**；主题的颜色 / 玻璃 / 字体等一切外观内容也**一字未动**（这是「改名 ≠ 改样子」的机械保证）。\n- **旧 id 不会被丢**：壳侧读时归一（`normalizeRecipeId` / `normalizeColorwayId` / `normalizeIconThemeId`，**解析器门控**＝新名在册且旧名不在册才映）＋ 配置迁移**版本 12** 把盘上的旧值改写掉；用户已选的主题 / 配色 / 图标主题在升级后**照旧生效**（含「插件比壳晚到」的顺序，两问门控保证任一时刻都只有一种解释成立）。"
+        },
         {
           "version": "1.0.4",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-mint-soda/releases/download/v1.0.4/theme-mint-soda.linkdesk-plugin",
