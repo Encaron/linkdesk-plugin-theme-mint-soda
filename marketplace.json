@@ -1,22 +1,28 @@
 {
   "version": "1",
-  "updatedAt": "2026-09-30T20:46:41.841Z",
+  "updatedAt": "2026-09-30T21:59:43.422Z",
   "plugins": [
     {
       "id": "theme-mint-soda",
       "name": "薄荷苏打",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "description": "清凉薄荷色系主题合集——薄荷冰露/海盐薄荷/青柠薄荷/薄荷苏打，Claymorphism 软萌风，全系亮色",
       "author": {
         "name": "LinkDesk"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-mint-soda/v1.0.7/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-mint-soda/v1.0.8/resources/icon.svg",
       "iconSource": "url",
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-mint-soda/v1.0.7/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-mint-soda/releases/download/v1.0.7/theme-mint-soda.linkdesk-plugin",
-      "size": 6997,
-      "publishedAt": "2026-09-30T20:46:41.841Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-mint-soda/v1.0.8/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-mint-soda/releases/download/v1.0.8/theme-mint-soda.linkdesk-plugin",
+      "size": 6618,
+      "publishedAt": "2026-09-30T21:59:43.422Z",
       "versions": [
+        {
+          "version": "1.0.8",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-mint-soda/releases/download/v1.0.8/theme-mint-soda.linkdesk-plugin",
+          "publishedAt": "2026-09-30T21:59:43.422Z",
+          "changelog": "- **安装包瘦身**：包内更新日志只带最近 5 版（更早的更新记录仍在本插件仓库里）——由 SDK 自动施加，用户无需任何操作。"
+        },
         {
           "version": "1.0.7",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-mint-soda/releases/download/v1.0.7/theme-mint-soda.linkdesk-plugin",
@@ -44,8 +50,7 @@
         {
           "version": "1.0.3",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-mint-soda/releases/download/v1.0.3/theme-mint-soda.linkdesk-plugin",
-          "publishedAt": "2026-09-14T02:37:02.855Z",
-          "changelog": "- 源码迁入独立仓（E6#99，L7 第 7.2 轮）——从壳仓 `Encaron/linkdesk` 抽出本插件子树，历史全保（hash 变）\n- 随包 `plugin.json` 显式声明 `pluginId`（E6#98g）：插件身份不再靠目录名兜底，独立仓构建出的包名与身份稳定\n- `$schema` 补上并指向本仓 `node_modules/@linkdesk/plugin-sdk`（本插件原先**没有**这个字段，是 18 只里唯一一只；补上后编辑器补全/校验与本仓其余插件一致）"
+          "publishedAt": "2026-09-14T02:37:02.855Z"
         }
       ]
     }
