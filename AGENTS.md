@@ -1,7 +1,7 @@
 # 薄荷苏打（theme-mint-soda）——LinkDesk 插件仓
 
 > **本文件是给在这个仓里干活的 AI 看的**（Claude Code / Codex / Cursor / …）。人看 `README.md`。
-> 插件身份的唯一来源 = `plugin.json` 顶层的 `pluginId`（本仓：`theme-mint-soda`）。当前版本 `1.0.5`。
+> 插件身份的唯一来源 = `plugin.json` 顶层的 `pluginId`（本仓：`theme-mint-soda`）。当前版本 `1.0.6`。
 
 ## 1. 这是什么
 
@@ -29,7 +29,6 @@
 
 **本仓没有 `src/`** —— 它是「数据插件」：能力全在 `plugin.json` 的声明 ＋ 数据文件里。
 
-**本仓没有 `i18n/`** —— 文案 key 就是中文原文，英文由语言包插件（`lang-defaults`）提供。
 
 - 🔴 本仓 `plugin.json` **是 18 只里唯一没有 `$schema` 键的** —— 补它能让编辑器有字段补全，属于小账。
 - 配方顶层键用 `type`（不是 `appearance`）。
