@@ -1,22 +1,28 @@
 {
   "version": "1",
-  "updatedAt": "2026-09-30T21:59:43.422Z",
+  "updatedAt": "2026-10-03T15:35:27.109Z",
   "plugins": [
     {
       "id": "theme-mint-soda",
       "name": "薄荷苏打",
-      "version": "1.0.8",
+      "version": "1.0.9",
       "description": "清凉薄荷色系主题合集——薄荷冰露/海盐薄荷/青柠薄荷/薄荷苏打，Claymorphism 软萌风，全系亮色",
       "author": {
         "name": "LinkDesk"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-mint-soda/v1.0.8/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-mint-soda/v1.0.9/resources/icon.svg",
       "iconSource": "url",
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-mint-soda/v1.0.8/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-mint-soda/releases/download/v1.0.8/theme-mint-soda.linkdesk-plugin",
-      "size": 6618,
-      "publishedAt": "2026-09-30T21:59:43.422Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-mint-soda/v1.0.9/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-mint-soda/releases/download/v1.0.9/theme-mint-soda.linkdesk-plugin",
+      "size": 6940,
+      "publishedAt": "2026-10-03T15:35:27.109Z",
       "versions": [
+        {
+          "version": "1.0.9",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-mint-soda/releases/download/v1.0.9/theme-mint-soda.linkdesk-plugin",
+          "publishedAt": "2026-10-03T15:35:27.109Z",
+          "changelog": "- **清掉一个壳从不读的死键**：colorway 里的 `icon-active` 已删（主题写它无效——图标墨色由壳按当前主题的文字色自动派生，作者无需也无法给图标指定颜色）；**`icon-inactive` 保留**（它是欢迎页「非激活图标」的真实用色，删掉会改观感）。"
+        },
         {
           "version": "1.0.8",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-mint-soda/releases/download/v1.0.8/theme-mint-soda.linkdesk-plugin",
@@ -44,8 +50,7 @@
         {
           "version": "1.0.4",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-mint-soda/releases/download/v1.0.4/theme-mint-soda.linkdesk-plugin",
-          "publishedAt": "2026-09-14T17:30:48.557Z",
-          "changelog": "- 配方 `$schema` 改**文档唯一认可的写法**（`./node_modules/@linkdesk/plugin-sdk/schemas/theme.schema.json`，相对工程根）——原来用的是已作废的越界相对路径（`../..` 一路指到壳仓 `public/schemas/`，脱离壳仓后编辑器的补全与校验全失效）\n- 分发件随包带 **MIT 许可证**（`LICENSE`）——MIT 要求副本里带版权声明，而 zip 才是用户真正拿到的那份\n- 新增 `AGENTS.md`：在这个仓里单开 AI 干活时的进场说明（这只插件是什么 / 规矩在哪 / 命令怎么敲）\n- 补 `plugin.json` 的 `$schema`（本仓原先缺这一行，编辑器无字段补全/校验）"
+          "publishedAt": "2026-09-14T17:30:48.557Z"
         },
         {
           "version": "1.0.3",
