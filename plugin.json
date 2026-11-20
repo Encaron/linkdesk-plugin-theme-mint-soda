@@ -2,7 +2,7 @@
   "$schema": "./node_modules/@linkdesk/plugin-sdk/schemas/plugin.schema.json",
   "pluginId": "theme-mint-soda",
   "name": "薄荷苏打",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "category": "themes",
   "categories": ["color-scheme"],
   "icon": "resources/icon.svg",
